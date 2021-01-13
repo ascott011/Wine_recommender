@@ -12,15 +12,24 @@ My dataset consists of wine reviews from Wine Enthusiast Magazine that were scra
 
 ### TF IDF Recommender
 
+This model focuses on the importance of individual words and not just words that appear often. I want to focus on unique or rare words because they are going to be more important and indicative of the wine's characteristics. I chose a 2013 Cabernet Sauvingnon as my input, and I examined the recommended wines and their descriptions to find matching keywords. This model recommedned a wine with some similarity between the input wine.
 
+![images/tfidf_results.png]
 
 ### LDA Recommender
 
-Some of the keywords: 
+This model focuses on topic modeling and finding themes of a document. Topics will be based on the words used in the wine description and these topics will be used to recommend a new wine with matching topics. 
+
+Topic examples: 
 
 Topic 1: Full, Fruits, Texture, Rich, Crisp, Fresh, Citrus, Apple, Spice, Light
 
+Topic 1 has features like crisp, citrus, and apple which are commonly associated with white wines.
+
 Topic 2: Black, Cherry, Spice, Berry, Note, Opens, Pepper, Plum, Oak, Full
+
+Topic 2 has different red fruits like cherry and plum and differnt flavors like spice and pepper. These characterisctics are often found in red wines.
+
 
 
 ## Going Forward
