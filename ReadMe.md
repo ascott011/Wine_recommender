@@ -14,7 +14,7 @@ My dataset consists of wine reviews from Wine Enthusiast Magazine that were scra
 
 This model focuses on the importance of individual words and not just words that appear often. I want to focus on unique or rare words because they are going to be more important and indicative of the wine's characteristics. I chose a 2013 Cabernet Sauvingnon as my input, and I examined the recommended wines and their descriptions to find matching keywords. This model recommedned a wine with some similarity between the input wine.
 
-![tfidf_results.png]
+![](images/tfidf_results.png)
 
 ### LDA Recommender
 
