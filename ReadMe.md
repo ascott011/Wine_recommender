@@ -7,6 +7,18 @@ I wanted a way to find new wines, or a new wine variety, based on a bottle I alr
 ## The Data
 My dataset consists of wine reviews from Wine Enthusiast Magazine that were scrapped by zackthoutt. Here is a link to the page where the dataset is: https://www.kaggle.com/zynicide/wine-reviews. I used 50,000 wine reviews which consist of over 500 different varieties of wine. I examine the wine descriptions, which charaterize the wine's smells, flavors, and structure. I am looking for keywords that are unique to each bottle of wine to make a recommendation for a new bottle with similar keywords and characteristics. 
 
+This is an example of a wine review.
+
+![](images/wine_review.png)
+
+The average wine review is 200-250 characters long.
+
+![](images/char_count.png)
+
+Of my 50,000 wine review, 95% come from these ten countries with the majority being from the United States and the top 5 rounded out with European countries.
+
+![](images/top_ten_countries.png)
+
 
 ## The Recommender Models
 
@@ -29,6 +41,10 @@ Topic 1 has features like crisp, citrus, and apple which are commonly associated
 Topic 2: Black, Cherry, Spice, Berry, Note, Opens, Pepper, Plum, Oak, Full
 
 Topic 2 has different red fruits like cherry and plum and differnt flavors like spice and pepper. These characterisctics are often found in red wines.
+
+The LDA model has done a better job of recommending a wine because there are more matching characteristics of the wines.
+
+![](images/lda_results.png)
 
 
 
