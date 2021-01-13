@@ -17,6 +17,7 @@ My dataset consists of wine reviews from Wine Enthusiast Magazine that were scra
 ### LDA Recommender
 
 Some of the keywords: 
+
 Topic 1: Full, Fruits, Texture, Rich, Crisp, Fresh, Citrus, Apple, Spice, Light
 
 Topic 2: Black, Cherry, Spice, Berry, Note, Opens, Pepper, Plum, Oak, Full
