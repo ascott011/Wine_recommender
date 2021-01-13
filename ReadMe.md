@@ -30,7 +30,7 @@ This model focuses on the importance of individual words and not just words that
 
 ### LDA Recommender
 
-This model focuses on topic modeling and finding themes of a document. Topics will be based on the words used in the wine description and these topics will be used to recommend a new wine with matching topics. 
+I used the same 2013 Cabernet Sauvignon for my input. This model focuses on topic modeling and finding themes of a document. Topics will be based on the words used in the wine description and these topics will be used to recommend a new wine with matching topics. 
 
 Topic examples: 
 
